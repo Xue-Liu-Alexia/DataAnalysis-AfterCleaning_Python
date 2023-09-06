@@ -2,6 +2,7 @@
 After cleaning the three datasets:Energy Indicators, world_bank, scimagojr, merge them together, and perform detailed analyses such as calculating the average GDP for each country, identifying the country whose GDP changed the largest, or estimating the population etc.
 
 Q1) [Advance]
+
 a) Read the energy data from the file Energy Indicators.xls, which is a list of indicators of [energy supply and renewable electricity production] from the [United Nations] (http://unstats.un.org/unsd/environment/excel_file_tables/2013/Energy%20Indicators.xls) for the year 2013 and should be put into a Data Frame with the variable name of energy. Keep in mind that this is an Excel file and not a comma-separated values file. Also, make sure to exclude the footer and header information from the data file. The first two columns are unnecessary, so you should get rid of them, and you should change the column labels so that the columns are:
  
 ['Country', 'Energy Supply', 'Energy Supply per Capita', '% Renewable’]
@@ -11,16 +12,22 @@ b) Convert variable Energy Supply to gigajoules (there are 1,000,000 gigajoules 
 c) Rename the following list of countries.
 
 "Republic of Korea" to "South Korea",
+
 "United States of America" to "United States",
+
 "United Kingdom of Great Britain and Northern Ireland" to "United Kingdom",
+
 "China, Hong Kong Special Administrative Region" to "Hong Kong"
  
 There are also several countries with parenthesis in their name. Be sure to remove these, e.g., `'Bolivia (Plurinational State of)'` should be `'Bolivia'`.
 
 d) Next, load the GDP data from the file world_bank.csv, which is a CSV containing countries' GDP from 1960 to 2015 from [World Bank] (http://data.worldbank.org/indicator/NY.GDP.MKTP.CD). Call this Data Frame GDP. Make sure to skip the header, and rename the following list of countries:
+
 "Korea, Rep." to "South Korea", 
+
 "Iran, Islamic Rep." to "Iran",
-"Hong Kong SAR, China" to "Hong Kong"```
+
+"Hong Kong SAR, China" to "Hong Kong"
 
 e) Finally, load the [Sciamgo Journal and Country Rank data for Energy Engineering and Power Technology] (http://www.scimagojr.com/countryrank.php?category=2102) from the file scimagojr-3.xlsx, which ranks countries based on their journal contributions in the area. Call this Data Frame ScimEn.
  
@@ -60,10 +67,12 @@ Q10) [Advanced] Use the following dictionary to group the Countries by Continent
                    'Iran':'Asia',
                    'Australia':'Australia', 
                    'Brazil':'South America'}
+                   
 [NB: This function should return a DataFrame with an index named Continent ['Asia', 'Australia', 'Europe', 'North America', 'South America'] and with columns ['size', 'sum', 'mean', 'std'].]
 
 Q11) [Advanced] Cut % Renewable into 5 bins. Group Top15 by the Continent, as well as these new % Renewable bins. How many countries are in each of these groups? [NB: This function should return a Series with a MultiIndex of ‘Continent’, then the bins for ‘% Renewable’. Do not include groups with no countries.]
 
 Q12) [Moderate] Convert the Population Estimate series to a string with thousands of separators (using commas). Do not round the results.
 e.g., 317615384.61538464 -> 317,615,384.61538464
+
 [NB: This function should return a Series PopEst whose index is the country name and whose values are the population estimate string.]
