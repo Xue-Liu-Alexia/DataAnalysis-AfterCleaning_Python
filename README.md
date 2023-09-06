@@ -1,5 +1,6 @@
 # DataAnalysis-AfterDataCleaning_Python-Project
 After cleaning the three datasets:Energy Indicators, world_bank, scimagojr, merge them together, and perform detailed analyses such as calculating the average GDP for each country, identifying the country whose GDP changed the largest, or estimating the population etc.
+
 Q1) [Advance]
 a) Read the energy data from the file Energy Indicators.xls, which is a list of indicators of [energy supply and renewable electricity production] from the [United Nations] (http://unstats.un.org/unsd/environment/excel_file_tables/2013/Energy%20Indicators.xls) for the year 2013 and should be put into a Data Frame with the variable name of energy. Keep in mind that this is an Excel file and not a comma-separated values file. Also, make sure to exclude the footer and header information from the data file. The first two columns are unnecessary, so you should get rid of them, and you should change the column labels so that the columns are:
  
