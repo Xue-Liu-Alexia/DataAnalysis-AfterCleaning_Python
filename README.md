@@ -6,7 +6,7 @@ After cleaning the three datasets:Energy Indicators, world_bank, scimagojr, merg
 -  Presentation
 -  Project Tasks
 2. Notebook:
-- [Data Analysis AfterCleaning_Python.ipynb] (https://github.com/Xue-Liu-Alexia/DataAnalysis-AfterCleaning_Python/blob/main/Data%20Analysis%20AfterCleaning_Python.ipynb)
+- [Data Analysis AfterCleaning_Python.ipynb](https://github.com/Xue-Liu-Alexia/DataAnalysis-AfterCleaning_Python/blob/main/Data%20Analysis%20AfterCleaning_Python.ipynb)
 3. Data Sets:
 - EnergyIndicators.xls
 - world_bank.csv
