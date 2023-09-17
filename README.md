@@ -3,7 +3,7 @@ After cleaning the three datasets:Energy Indicators, world_bank, scimagojr, merg
 
 # Table of Contents
 1. Notebook:
-- [Data Analysis AfterCleaning_Python.ipynb](https://github.com/Xue-Liu-Alexia/DataAnalysis-AfterCleaning_Python/blob/main/Data%20Analysis%20AfterCleaning_Python.ipynb)
+- [Data Analysis_PythonReport.ipynb](https://github.com/Xue-Liu-Alexia/DataAnalysis-AfterCleaning_Python/blob/main/DataAnalysis_PythonReport.ipynb)
 2. Documentation:
 -  [Presentation](https://github.com/Xue-Liu-Alexia/DataAnalysis-AfterCleaning_Python/blob/main/Data%20Analysis%20AfterCleaning_Python.pptx)
 -  [Project Tasks](https://github.com/Xue-Liu-Alexia/DataAnalysis-AfterCleaning_Python/blob/main/Python%20Projects%20Tasks.doc)
